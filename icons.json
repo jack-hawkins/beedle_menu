@@ -1,0 +1,54 @@
+[
+    {
+        "name": "jellyfin",
+        "display": "JellyFin",
+        "link": "jellyfin.beedle.online"
+    },
+    {
+        "name": "radarr",
+        "display": "Radarr",
+        "link": "radarr.beedle.online"
+    },
+    {
+        "name": "sonarr",
+        "display": "Sonarr",
+        "link": "sonarr.beedle.online"
+    },
+    {
+        "name": "nginx",
+        "display": "Nginx",
+        "link": "nginx.beedle.online"
+    },
+    {
+        "name": "prowlarr",
+        "display": "Radarr",
+        "link": "radarr.beedle.online"
+    },
+    {
+        "name": "nzbget",
+        "display": "NZBGet",
+        "link": "nzbget.beedle.online"
+    },
+    {
+        "name": "qbittorrent",
+        "display": "QbitTorrent",
+        "link": "qbit.beedle.online"
+    },
+    {
+        "name": "jackett",
+        "display": "Jackett",
+        "link": "jackett.beedle.online"
+    },
+    {
+        "name": "weatherchannel",
+        "display": "Weather Channel",
+        "link": "weather.beedle.online",
+        "image": "./weathericon.png"
+    },
+    {
+        "name": "ws4k",
+        "display": "WS4k",
+        "link": "ws4k.beedle.online",
+        "image": "https://raw.githubusercontent.com/nwithan8/unraid_templates/master/images/weatherstar-icon.png"
+    }
+]
