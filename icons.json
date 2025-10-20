@@ -15,9 +15,9 @@
         "link": "sonarr.beedle.online"
     },
     {
-        "name": "nginx",
-        "display": "Nginx",
-        "link": "nginx.beedle.online"
+        "name": "nginx-proxy-manager",
+        "display": "Nginx Proxy Manager",
+        "link": "http://192.168.0.10:7818/"
     },
     {
         "name": "prowlarr",
