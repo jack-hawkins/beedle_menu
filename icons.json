@@ -21,7 +21,7 @@
     },
     {
         "name": "prowlarr",
-        "display": "Radarr",
+        "display": "Prowlarr",
         "link": "radarr.beedle.online"
     },
     {
