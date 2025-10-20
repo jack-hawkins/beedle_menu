@@ -38,7 +38,7 @@ function buildCard(row,column,colsize)
 
     let link = document.createElement("a");
     link.classList.add("text-decoration-none");
-    link.href = column.link.startsWith("http") ? column.link : "http://" + column.link;
+    link.href = column.link.startsWith("http") ? column.link : "https://" + column.link;
     link.target = "_blank";
     col.appendChild(link);
 
