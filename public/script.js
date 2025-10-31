@@ -6,19 +6,18 @@ async function loadJson(file)
 
 async function buildIcons()
 {
-    const cols = 4;
-    const colSize = 12/cols;
     let icons = await loadJson("/icons");
     console.log(icons);
 
     let container = document.querySelector(".container");
 
-    let row = undefined;
-    for(var i=0;i<icons.length;i++)
+    let row = document.createElement("div");
+    row.classList.add("row");
+    container.appendChild(row);
+    
+    for(var i of icons)
     {
-        if(i % cols == 0)
-            row = buildRow(container);
-        buildCard(row,icons[i],colSize);
+        row.appendChild(buildCard(i));
     }
 }
 
@@ -30,11 +29,10 @@ function buildRow(container)
     return row;
 }
 
-function buildCard(row,column,colsize)
+function buildCard(column)
 {
     let col = document.createElement("div");
-    col.classList.add(`col-${colsize}`,"d-flex");
-    row.appendChild(col);
+    col.classList.add("col-12", "col-sm-6", "col-md-4", "col-lg-3", "col-xl-2", "mt-4", "d-flex");
 
     let link = document.createElement("a");
     link.classList.add("text-decoration-none");
