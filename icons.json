@@ -22,7 +22,7 @@
     {
         "name": "prowlarr",
         "display": "Prowlarr",
-        "link": "radarr.beedle.online"
+        "link": "prowlarr.beedle.online"
     },
     {
         "name": "nzbget",
@@ -50,5 +50,10 @@
         "display": "WS4k",
         "link": "ws4k.beedle.online",
         "image": "https://raw.githubusercontent.com/nwithan8/unraid_templates/master/images/weatherstar-icon.png"
+    },
+    {
+        "name": "pinchflat",
+        "display": "Pinchflat",
+        "link": "pinchflat.beedle.online"
     }
 ]
