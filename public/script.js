@@ -16,17 +16,7 @@ async function buildIcons()
     container.appendChild(row);
     
     for(var i of icons)
-    {
         row.appendChild(buildCard(i));
-    }
-}
-
-function buildRow(container)
-{
-    let row = document.createElement("div");
-    row.classList.add("row", "mt-4");
-    container.appendChild(row);
-    return row;
 }
 
 function buildCard(column)
