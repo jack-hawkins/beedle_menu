@@ -12,4 +12,4 @@ COPY . /files
 
 EXPOSE 3000
 
-CMD ["node", "files/server/server.js"]
+CMD ["node", "server/server.js"]
