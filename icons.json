@@ -64,12 +64,12 @@
     {
         "name" : "koboldcpp",
         "display" : "Kobold CPP",
-        "link" : "kobold.beedle.online"
+        "link" : "http://kobold.beedle.online"
     },
     {
         "name" : "sillytavern",
         "display" : "Silly Tavern",
-        "link" : "tavern.beedle.online",
+        "link" : "http://tavern.beedle.online",
         "image" : "./st.png"
     },
     {
