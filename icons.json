@@ -42,18 +42,40 @@
     {
         "name": "weatherchannel",
         "display": "Weather Channel",
-        "link": "weather.beedle.online",
+        "link": "http://weather.beedle.online",
         "image": "./weathericon.png"
     },
     {
         "name": "ws4k",
         "display": "WS4k",
-        "link": "ws4k.beedle.online",
-        "image": "https://raw.githubusercontent.com/nwithan8/unraid_templates/master/images/weatherstar-icon.png"
+        "link": "http://ws4k.beedle.online",
+        "image": "./weatherstar-icon.png"
     },
     {
         "name": "pinchflat",
         "display": "Pinchflat",
         "link": "pinchflat.beedle.online"
+    },
+    {
+        "name" : "filebrowser",
+        "display" : "Filebrowser",
+        "link" : "file.beedle.online"
+    },
+    {
+        "name" : "koboldcpp",
+        "display" : "Kobold CPP",
+        "link" : "kobold.beedle.online"
+    },
+    {
+        "name" : "sillytavern",
+        "display" : "Silly Tavern",
+        "link" : "tavern.beedle.online",
+        "image" : "./st.png"
+    },
+    {
+        "name" : "hnlbc",
+        "display" : "HNLBC",
+        "link" : "http://192.168.0.41:4242",
+        "image" : "./HnLBC Logo.png"
     }
 ]
