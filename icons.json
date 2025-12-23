@@ -64,7 +64,7 @@
     {
         "name" : "koboldcpp",
         "display" : "Kobold CPP",
-        "link" : "http://kobold.beedle.online"
+        "link" : "http://192.168.0.10:5002"
     },
     {
         "name" : "sillytavern",
@@ -75,7 +75,7 @@
     {
         "name" : "hnlbc",
         "display" : "HNLBC",
-        "link" : "http://192.168.0.41:4242",
+        "link" : "http://hnlbc.beedle.online",
         "image" : "./HnLBC Logo.png"
     }
 ]
